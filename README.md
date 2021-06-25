@@ -1,1 +1,3 @@
 # DDoS-attack-detection-in-SDN-using-SVM
+
+In this work, the flow status information of the network traffic is collected on the switch by the controller (Ryu controller in my case). The five-tuple characteristic values related to DDoS-attack are extracted and then use the Support Vector Machine algorithm to judge the traffic based on extracted tuples and carry out DDoS attack detection. The analysis of the variations in the characteristic values of traffic and verify the feasibility of this method by deploying the SDN experimental environment using Mininet with some topology has been done.The detection accuracy rate of the experiment is pretty high.
